@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm ci && npm run build && npm run start"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
